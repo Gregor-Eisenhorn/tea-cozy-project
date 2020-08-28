@@ -3,7 +3,7 @@
         padding: 0;
         box-sizing: border-box;
     }
-    
+
     body {
         font-family: Helvetica, Arial, sans-serif;
         font-size: 22px;
@@ -11,39 +11,39 @@
         background: black;
         text-align: center;
     }
-    
+
     main {
         opacity: 0.7;
     }
-    
+
     header {
         display: fixed;
         top: 0;
         height: 69px;
         border-bottom: 1px solid seashell;
     }
-    
+
     .header-container {
         display: flex;
         justify-content: space-between;
         align-items: center;
     }
-    
+
     .logo {
         height: 50px;
         margin: 10px;
     }
-    
+
     .main-nav {
         margin: 10px;
     }
-    
+
     a {
         color: seashell;
         text-decoration: underline;
         margin: 0 10px;
     }
-    
+
     .banner {
         height: 700px;
         width: 1200px;
@@ -54,7 +54,7 @@
         display: flex;
         align-items: center
     }
-    
+
     .banner-headings {
         width: 100%;
         display: flex;
@@ -63,34 +63,35 @@
         background: black;
         padding: 10px 0;
     }
-    
+
     .tea-of-the-month {
         width: 1000px;
         margin: 80px auto;
         display: flex;
         flex-direction: column;
     }
-    
+
     .tea-of-the-month-images {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         align-items: center;
+        
     }
-    
+
     .tea-of-the-month-images img {
         height: 200px;
         width: 300px;
     }
-    
+
     .tea-of-the-month-text h4 {
         line-height: 3em;
     }
-    
+
     .image {
         margin: 10px 15px;
     }
-    
+
     .image h4 {
         padding: 10px 0;
     }
