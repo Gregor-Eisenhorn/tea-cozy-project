@@ -45,7 +45,6 @@
     a {
         color: seashell;
         text-decoration: underline;
-        
     }
 
     .banner {
@@ -98,3 +97,62 @@
     .image h4 {
         padding: 10px 0;
     }
+
+    .locations {
+        background-image: url(../images/img-locations-background.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        max-width: 1200px;
+        height: 500px;
+        margin: 0 auto;
+        padding-top: 60px;
+    }
+
+    .locations-heading {
+        margin: 0px 0 15px 0;
+        opacity: 1;
+    }
+
+    .locations-tile-list {
+        display: flex;
+        justify-content: center;
+    }
+
+    .locations-tile {
+        height: 300px;
+        width: 300px;
+        background: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin: 0 20px;
+        opacity: 1;
+    }
+
+    footer {
+        opacity: 0.9;
+        padding-top: 10px;
+    }
+
+    .tea-cozy-footer {
+        height: 200px;
+    }
+
+    .tea-cozy-footer h2 {
+        margin-bottom: 45px;
+    }
+
+    h5 {
+        margin-bottom: 30px;
+    }
+
+    .copyright {
+        text-align: left;
+        margin-left: 20px;
+    }
+
+  
+
+   
